@@ -1,0 +1,143 @@
+body, html {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 32px;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1219px;
+  padding: 0px 55px;
+}
+
+nav {
+  float: right;
+  color: #FFF;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+header {
+  width: 100%;
+  background: #007765;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+ display: inline-block;
+ margin: 20px 0px 12px 0px;
+}
+
+.anchor {
+  position: relative;
+  top: -100px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+#svg2 {
+  margin: 0px;
+  position: relative;
+  right: 54px;
+}
+
+.clear {
+  clear: both;
+}
+
+.hero1 {
+  background-image: url(images/fon1big.png);
+  background-size: cover;
+  background-position: left center;
+  margin-top: 82.326px;
+  padding: 160px;
+  color: white;
+}
+
+.hero_message1 {
+  font-family: Roboto, sans-serif;
+  font-size: 72px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h1 {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+  margin: 0px;
+}
+
+.section1 {
+  margin: 0px;
+  background-color: #EEE;
+  padding-top: 48px;
+  padding-bottom: 76px;
+}
+
+.section2 {
+  margin: 0px;
+  background-color: #FFF;
+  padding-top: 48px;
+  padding-bottom: 76px;
+}
+
+.hero2 {
+  margin: 0px;
+  padding: 128px;
+  background-image: url(images/fon2.png);
+  background-size: cover;
+  background-position: left center;
+}
+
+.hero_message2 {
+  color: white;
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+}
+
+.inTextLogo {
+  float: left;
+  margin-right: 48px;
+}
+
+.person {
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.name {
+  font-size: 24;
+  font-weight: bold;
+  color: #007765;
+}
+
+.profession {
+  font-size: 18px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #333;
+  color:white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 48px 339px 64px 339px;
+}
