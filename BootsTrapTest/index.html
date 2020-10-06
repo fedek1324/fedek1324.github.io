@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap test</title>
+    <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="vendor/js/popper.min.js" async></script>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
+    <script src="vendor/js/bootstrap.min.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">НЛК</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Портфолио</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Рейтинг</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Помощь</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4" style="font-weight: 400;">Портфолио</h1>
+        <p>
+          Это место, где собраны ваши научные публикации. Здесь вы можете
+          добавлять свои научные работы, получать информацию об их уникальности
+          и смотреть отзывы ваших научных руководителей.
+        </p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Добавить работу</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-7">
+          <div class="card mb-4">
+            <div class="card-header">Ваш профиль</div>
+            <div class="card-body">
+              <h5 class="card-title">Сергей Павлович Фролов</h5>
+              <div><b>Научная степень:</b> магистр.</div>
+              <div>
+                <b>Специализация:</b> инвестиционные проблемы экономически
+                развивающихся рынков.
+              </div>
+              <div style="margin-top: 1rem">
+                <a class="btn btn-primary btn-md" href="#" role="button"
+                  >Редактировать</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-5">
+          <div class="card">
+            <div class="card-header">Статистика</div>
+            <div class="card-body">
+              <div><b>На платформе:</b> 2 года.</div>
+              <div><b>Добавлено работ:</b> 10.</div>
+              <div><b>Средняя уникальность:</b> 75%.</div>
+              <div><b>Языки работ:</b> русский, английский.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
